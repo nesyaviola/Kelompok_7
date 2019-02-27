@@ -2,7 +2,7 @@
     <string name="app_name">EduLib</string>
     <string name="i_accept_the_term_of_use_privacy_policy"><![CDATA[I accept the Term of Use & Privacy Policy]]></string>
     <string name="sign_up">Sign Up</string>
-    <string name="textview">TextView</string>
+    <string name="textview">Please fill this form an account !</string>
     <string name="already_have_an_account_sign_in">Already have an account ? Sign In</string>
     <string name="sign_up1">Sign Up</string>
     <string name="last_name">Last Name</string>
