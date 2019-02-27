@@ -34,7 +34,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/username"
         android:layout_width="351dp"
         android:layout_height="53dp"
         android:layout_marginStart="36dp"
@@ -44,8 +44,8 @@
         android:layout_marginRight="36dp"
         android:background="@drawable/edittext_kotak"
         android:ems="10"
-        android:hint="@string/email"
-        android:inputType="textWebEmailAddress"
+        android:hint="@string/username"
+        android:inputType="textPersonName|numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
@@ -65,7 +65,7 @@
         android:inputType="textPassword|numberPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email" />
+        app:layout_constraintTop_toBottomOf="@+id/username" />
 
     <EditText
         android:id="@+id/confirm_pass"

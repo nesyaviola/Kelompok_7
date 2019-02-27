@@ -1,12 +1,10 @@
 package com.example.edulib;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -36,12 +34,12 @@ public class MainActivity extends AppCompatActivity {
 
         EditText f_name = findViewById(R.id.f_name);
         EditText l_name = findViewById(R.id.l_name);
-        EditText email = findViewById(R.id.email);
+        EditText username = findViewById(R.id.username);
         EditText password = findViewById(R.id.password);
         EditText confirm_pass = findViewById(R.id.confirm_pass);
 
         if (!f_name.getText().toString().equals("") && !l_name.getText().toString().equals("") &&
-        !email.getText().toString().equals("") && !password.getText().toString().equals("") &&
+        !username.getText().toString().equals("") && !password.getText().toString().equals("") &&
                 !confirm_pass.getText().toString().equals("")){
             Intent intent = new Intent(this, Login.class);
             startActivity(intent);
